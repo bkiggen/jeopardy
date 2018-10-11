@@ -1,0 +1,104 @@
+.category {
+  border: 1px solid black;
+  background-color: blue;
+  color: white;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  height: 200px;
+}
+
+.question {
+  font-size: 75%;
+  padding: 10px;
+  background-color: blue;
+  color: yellow;
+  height: 150px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.grid-container {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1.5fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 1px 1px;
+  grid-template-areas: "category0 category1 category2 category3 category4 category5" "q00 q10 q20 q30 q40 q50" "q01 q11 q21 q31 q41 q51" "q02 q12 q22 q32 q42 q52" "q03 q13 q23 q33 q43 q53" "q04 q14 q24 q34 q44 q54";
+}
+
+.category0 { grid-area: category0; }
+
+.category1 { grid-area: category1; }
+
+.category2 { grid-area: category2; }
+
+.category3 { grid-area: category3; }
+
+.category4 { grid-area: category4; }
+
+.category5 { grid-area: category5; }
+
+#q00 { grid-area: q00; }
+
+#q10 { grid-area: q10; }
+
+#q20 { grid-area: q20; }
+
+#q30 { grid-area: q30; }
+
+#q40 { grid-area: q40; }
+
+#q50 { grid-area: q50; }
+
+#q01 { grid-area: q01; }
+
+#q11 { grid-area: q11; }
+
+#q02 { grid-area: q02; }
+
+#q03 { grid-area: q03; }
+
+#q04 { grid-area: q04; }
+
+#q12 { grid-area: q12; }
+
+#q13 { grid-area: q13; }
+
+#q14 { grid-area: q14; }
+
+#q21 { grid-area: q21; }
+
+#q22 { grid-area: q22; }
+
+#q23 { grid-area: q23; }
+
+#q24 { grid-area: q24; }
+
+#q31 { grid-area: q31; }
+
+#q32 { grid-area: q32; }
+
+#q33 { grid-area: q33; }
+
+#q34 { grid-area: q34; }
+
+#q41 { grid-area: q41; }
+
+#q42 { grid-area: q42; }
+
+#q43 { grid-area: q43; }
+
+#q44 { grid-area: q44; }
+
+#q51 { grid-area: q51; }
+
+#q52 { grid-area: q52; }
+
+#q53 { grid-area: q53; }
+
+#q54 { grid-area: q54; }
