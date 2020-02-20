@@ -2,7 +2,7 @@ export default class Questions {
   questionQuery(){
     return new Promise(function(resolve, reject) {
       let request = new XMLHttpRequest();
-      let url = `http://jservice.io/api/clues?category=${randomCat()}`;
+      let url = `https://jservice.io/api/clues?category=${randomCat()}`;
       request.onload = function() {
         if (this.status === 200){
           resolve(request.response);
@@ -35,16 +35,6 @@ export default class Questions {
 }
 
 }
-
-
-
-
-
-
-
-
-
-
 
 function randomCat() {
   return Math.floor(Math.random() * (5000 - 1000) + 1000);
